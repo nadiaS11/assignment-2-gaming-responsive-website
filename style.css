@@ -136,3 +136,10 @@ a {
 .blue {
     background-color: #4EC5F7;
 }
+
+.gamers-container{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+}
