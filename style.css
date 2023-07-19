@@ -191,6 +191,9 @@ a {
     margin-top: 50px;
     text-align: center;
 }
+.grid-description{
+    margin: 5px 0 15px;
+}
 
 .grid-box img {
     width: 100%;
@@ -332,7 +335,6 @@ a {
     width: 60px;
     height: 60px;
     padding: 4px;
-
 }
 
 .single-category {
