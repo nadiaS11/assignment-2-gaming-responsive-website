@@ -38,7 +38,7 @@
     font-weight: 700;
 }
 
-.logo-container span {
+.colored-letter {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -175,7 +175,9 @@ a {
     color: #534C64;
     font-weight: 700;
 }
-.banner-left img, .gamers-container img {
+
+.banner-left img,
+.gamers-container img {
     max-width: 70%;
     /* to limit the image width */
     height: auto;
@@ -185,18 +187,19 @@ a {
 }
 
 /* videos-grid-section for bonus part starts here */
-.videos-grid-section{
+.videos-grid-section {
     margin-top: 50px;
     text-align: center;
 }
+
 .grid-box img {
-    width: 100%;   
+    width: 100%;
     transition: opacity 0.3s;
 
 }
 
-.grid-box{
-    
+.grid-box {
+
     margin: 0 auto;
     /* padding: 15px 15px; */
     width: 300px;
@@ -206,12 +209,14 @@ a {
     /* box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15); */
 
 }
-.grid-box .image-overlay-container{
-    
+
+.grid-box .image-overlay-container {
+
     position: relative;
-  overflow: hidden;
+    overflow: hidden;
 
 }
+
 .image-overlay-container .overlay {
     position: absolute;
     top: 0;
@@ -220,41 +225,131 @@ a {
     height: 100%; */
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value to control darkness */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust the alpha value to control darkness */
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0; /* Start with opacity 0 for the fade-in effect */
+    opacity: 0;
+    /* Start with opacity 0 for the fade-in effect */
     transition: opacity 0.4s ease-in-out;
     cursor: pointer;
-  }
-  .play-button{
+}
+
+.play-button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-  }
-  
-  .image-overlay-container:hover .overlay {
-    opacity: .8; /* Fade in the overlay on hover */
+}
+
+.image-overlay-container:hover .overlay {
+    opacity: .8;
+    /* Fade in the overlay on hover */
     border-radius: 5px;
-    border:5px solid #FF42A5;
+    border: 5px solid #FF42A5;
     font-size: 1.25rem;
     font-weight: 600;
     color: #FF42A5;
-  }
+}
+
 .grid-container {
-    max-width: 1400px;  
+    max-width: 1400px;
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    text-align: left;    
+    text-align: left;
 }
-.grid-container p{
+
+.grid-container p {
     margin-top: 10px;
     color: #534C64;
-font-weight: 500;
+    font-weight: 500;
 }
+.online-section{
+    margin: 50px 0;
+}
+.online-pic-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Required for positioning the smaller image absolute,parent div needs to be relative*/
+  }
+  
+  .double-pic-container {
+    position: relative; /* Required for positioning the smaller image relative to this container */
+  }
+  
+  .larger-img {
+    width: 500px; /* Set the width of the larger image */
+    height: auto; /* Adjust the height accordingly */
+  }
+  
+  .smaller-img {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    width: 250px; /* to set the width of the smaller image */
+    height: auto; /* to adjust the height accordingly */
+  }
+  .online-description{
+    color: #534C64;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    min-height: 200px;
+    padding: 20px 0;
+    margin: auto;
+    background: #0A0826;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+
+}
+
+footer div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 30px;
+
+}
+
+footer a {
+    color: rgb(212, 211, 211);
+}
+
+.footer-logo,
+.icons,
+.settings-container,
+.pages-container {
+
+    margin: 20px auto;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
