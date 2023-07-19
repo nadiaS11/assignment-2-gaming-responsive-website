@@ -1,5 +1,5 @@
 @media screen and (max-width:425px) {    
-    .nav-container,.nav-items{
+    .nav-container,.nav-items, .gamers-container{
         padding: 30px 0;
         flex-direction: column;
         gap: 30px;
@@ -26,6 +26,9 @@
     background-size: contain; 
     background-position:left;
     background-repeat: no-repeat; 
+    }
+    .gamers-container{
+        text-align: center;
     }
     
 
@@ -66,4 +69,3 @@
     background-repeat: no-repeat; 
     }
 }
-  

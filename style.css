@@ -5,9 +5,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.nav-section {
+/* .nav-section {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
+} */
 
 .nav-container {
     max-width: 1400px;
@@ -85,22 +85,22 @@ a {
     /* text-align: center; */
 
     justify-content: space-evenly;
-    background-image: url("./images/Group 14.png"), 
-    linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    background-size: contain; 
-    background-position:left;
-    background-repeat: no-repeat; 
+    background-image: url("./images/Group 14.png"),
+        linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
 
 }
 
 
 .banner-left h2 {
-    
+
     color: #0B0223;
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
-    
+
 }
 
 
@@ -108,6 +108,11 @@ a {
     font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
+
+
+}
+
+.colored-text {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -125,10 +130,11 @@ a {
     border: none;
     border-radius: 40px;
     color: #FFF;
-    padding: 10px  15px;
+    padding: 10px 15px;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .pink {
     background-color: #FF42A5;
 }
@@ -137,9 +143,43 @@ a {
     background-color: #4EC5F7;
 }
 
-.gamers-container{
+.gamers-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.04) 0%, rgba(255, 66, 165, 0.06) 100%);
+    min-height: 500px;
+    padding: 20px 0;
+}
+
+.gamers-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
     display: flex;
     align-items: center;
     text-align: right;
     justify-content: center;
+    /* gap: 30px; */
+}
+
+.gamers-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.gamers-description {
+    color: #534C64;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gamers-container span {
+    color: #534C64;
+    font-weight: 700;
+}
+.banner-left img, .gamers-container img {
+    max-width: 70%;
+    /* to limit the image width */
+    height: auto;
+    /* to maintain the aspect ratio */
+    display: block;
+    margin: 0 auto;
 }
