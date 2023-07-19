@@ -36,6 +36,7 @@
     }
     .online-pic-container{
         justify-content: center;
+        text-align: center;
     }
     .larger-img, .smaller-img {
         position: static; /* this removes absolute positioning for mobile */

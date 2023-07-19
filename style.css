@@ -11,7 +11,7 @@
 
 .nav-container {
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 20px auto;
     min-height: 60px;
     display: flex;
     align-items: center;
@@ -232,7 +232,7 @@ a {
     justify-content: center;
     opacity: 0;
     /* Start with opacity 0 for the fade-in effect */
-    transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in;
     cursor: pointer;
 }
 
@@ -374,6 +374,10 @@ footer {
 footer div {
     width: 70%;
     margin: 0 auto;
+}
+.footer-logo{
+    color: white;
+    font-size: 1.25rem;
 }
 
 .footer-logo img {
