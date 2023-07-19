@@ -269,9 +269,11 @@ a {
     color: #534C64;
     font-weight: 500;
 }
-.online-section{
-    margin: 50px 0;
+
+.online-section {
+    margin-top: 100px;
 }
+
 .online-pic-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -279,33 +281,76 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative; /* Required for positioning the smaller image absolute,parent div needs to be relative*/
-  }
-  
-  .double-pic-container {
-    position: relative; /* Required for positioning the smaller image relative to this container */
-  }
-  
-  .larger-img {
-    width: 500px; /* Set the width of the larger image */
-    height: auto; /* Adjust the height accordingly */
-  }
-  
-  .smaller-img {
+    position: relative;
+    /* Required for positioning the smaller image absolute,parent div needs to be relative*/
+}
+
+.double-pic-container {
+    position: relative;
+    /* Required for positioning the smaller image relative to this container */
+}
+
+.larger-img {
+    width: 500px;
+    /* Set the width of the larger image */
+    height: auto;
+    /* Adjust the height accordingly */
+}
+
+.smaller-img {
     position: absolute;
     top: 50%;
     left: 80%;
-    width: 250px; /* to set the width of the smaller image */
-    height: auto; /* to adjust the height accordingly */
-  }
-  .online-description{
+    width: 250px;
+    /* to set the width of the smaller image */
+    height: auto;
+    /* to adjust the height accordingly */
+}
+
+.online-description {
     color: #534C64;
     font-weight: 500;
     margin: 10px 0;
-  }
-  
+}
 
+/* CATEGORY SECTION */
+.category-section {
+    margin: 100px auto;
+}
 
+.categories {
+    max-width: 1400px;
+    margin: 30px auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.single-category img {
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+
+}
+
+.single-category {
+    flex-basis: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFF;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.single-category:hover {
+    border: 1px solid #F948B2;
+    color: #F948B2;
+}
 
 
 
@@ -352,4 +397,3 @@ footer a {
     align-items: center;
     justify-content: center;
 }
-
