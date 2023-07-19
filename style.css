@@ -394,7 +394,7 @@ footer a {
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
