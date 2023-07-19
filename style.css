@@ -183,3 +183,37 @@ a {
     display: block;
     margin: 0 auto;
 }
+
+/* videos-grid-section for bonus part starts here */
+.videos-grid-section{
+    margin-top: 50px;
+    text-align: center;
+}
+.grid-container img {
+    width: 100%;   
+
+}
+
+.grid-box{
+    margin: 0 auto;
+    /* padding: 15px 15px; */
+    width: 300px;
+    min-height: 400px;
+    border-radius: 5px;
+    background: #FFF;
+    /* box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15); */
+
+}
+.grid-container {
+    max-width: 1400px;  
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: left;    
+}
+.grid-container p{
+    margin-top: 10px;
+    color: #534C64;
+font-weight: 500;
+}
