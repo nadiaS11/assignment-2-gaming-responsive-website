@@ -159,6 +159,10 @@ a {
     justify-content: center;
     /* gap: 30px; */
 }
+.gamers-details{
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
 .gamers-title {
     font-size: 2.8rem;
@@ -169,6 +173,7 @@ a {
     color: #534C64;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 
 .gamers-container span {
@@ -259,8 +264,9 @@ a {
 }
 
 .grid-container {
+   
     max-width: 1400px;
-    margin: 30px auto;
+    margin: 50px auto 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -274,12 +280,14 @@ a {
 }
 
 .online-section {
-    margin-top: 100px;
+    margin-top: 100px;    
+
 }
 
 .online-pic-container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 10px 0 60px;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -318,7 +326,7 @@ a {
 
 /* CATEGORY SECTION */
 .category-section {
-    margin: 100px auto;
+    margin: 0 auto 50px;
 }
 
 .categories {

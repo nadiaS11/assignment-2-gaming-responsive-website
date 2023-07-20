@@ -38,14 +38,22 @@
         justify-content: center;
         text-align: center;
     }
-    .larger-img, .smaller-img {
-        position: static; /* this removes absolute positioning for mobile */
-        width: 100%; /* to set images to take full width on mobile */
+    
+    .larger-img {
+        width: 100%; /* Make the larger image full-width for mobile view */
+        max-width: 300px; /* Set a maximum width for the larger image to avoid stretching */
+        margin-bottom: 10px; /* Add some space between the images */
     }
 
     .smaller-img {
-        margin-top: 20px; /* to add some spacing between the images on mobile */
+        position: static; /* this removes absolute positioning to place it below the larger image */
+        margin-top: 10px; /* to add some space between the images */
+        width: 100%; /* this makes the smaller image full-width for mobile view */
+        max-width: 200px; /* to set a maximum width for the smaller image to avoid stretching */
+        transform: translateX(55%) translateY(-50%); /* Use a CSS transform to horizontally center the smaller image */
+        
     }
+
     .single-category img {
         width: 40px;
         height: 40px;
